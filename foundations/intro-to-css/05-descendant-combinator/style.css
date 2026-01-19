@@ -1,1 +1,9 @@
 /* Add CSS Styling */
+.container p{
+    background-color: chartreuse;
+    color: brown;
+    font-size: 222px;
+    text-align: center;
+}
+
+
