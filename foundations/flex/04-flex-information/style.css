@@ -24,3 +24,25 @@ img {
   justify-content: center;
   background: #eee;
 }
+/*Solution*/
+body{
+    text-align: center;
+
+}
+
+.title{
+ /* display: flex;
+ justify-content: center; 
+ text-align center will align text to the center
+ */
+ margin:10px 0px 42px 0px; 
+}
+.flower{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+.one,.two,.three,.four{
+  width: 200px;
+ 
+}
