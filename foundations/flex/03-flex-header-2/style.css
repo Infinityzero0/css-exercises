@@ -46,3 +46,42 @@ a {
 ul {
   list-style-type: none;
 }
+/*
+Solution
+*/
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo-links{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+ul{
+  display: flex;
+  gap: 10px;
+  padding: 0px;
+  margin: 0px;
+}
+.logo{
+  margin-left: 16px;
+  padding: 0;
+}
+.notification-profile{
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.profile-image{
+  margin-right: 16px;
+}
+
+
+
+
+
